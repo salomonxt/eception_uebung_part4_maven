@@ -14,6 +14,7 @@ public class Main {
 
     public static String getValue() throws InvalidIdException {
         //exception
-        throw new InvalidIdException("not found, my good friend");
+       throw new InvalidIdException("not found, my good friend");
+
     }
 }

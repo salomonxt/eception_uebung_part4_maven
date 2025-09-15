@@ -1,7 +1,6 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
@@ -20,6 +19,7 @@ class MainTest {
 
     @Test
     void getValue_shouldThrowException_method2() {
+        assertThrows(InvalidIdException.class, () -> Main.getValue());
 
     }
 }
